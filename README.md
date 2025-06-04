@@ -15,8 +15,7 @@ Install dependencies listed in `requirements.txt` and run the script:
 
 ```bash
 pip install -r requirements.txt
-python covid_heatmap.py
-```
+
 
 Open the resulting `covid_heatmap.html` file in your browser to visualize the
 cases.

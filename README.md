@@ -18,3 +18,15 @@ python covid_heatmap.py
 
 Open the resulting `covid_heatmap.html` file in your browser to visualize the
 cases.
+
+### Jupyter Notebook
+
+You can also run the notebook version in Jupyter:
+
+```bash
+pip install pandas folium jupyter
+jupyter notebook covid_heatmap.ipynb
+```
+
+Executing all cells will display the map inline and save it to
+`covid_heatmap.html`.

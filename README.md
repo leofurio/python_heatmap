@@ -8,8 +8,9 @@ This repository contains a simple script to generate a COVID-19 heatmap using
 [Johns Hopkins University](https://github.com/CSSEGISandData/COVID-19) case
 numbers.
 
-The script downloads the latest confirmed case data and builds an interactive
-heatmap saved as `covid_heatmap.html`.
+The script downloads the confirmed case data and builds an interactive
+heatmap saved as `covid_heatmap.html`. A date slider lets you explore the
+spread of cases from the earliest available date to the most recent one.
 
 ```bash
 pip install pandas folium

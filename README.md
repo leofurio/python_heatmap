@@ -14,10 +14,8 @@ spread of cases from the earliest available date to the most recent one.
 
 ```bash
 pip install pandas folium
-python covid_heatmap.py --last-days 30 --scale 150
+python covid_heatmap.py
 ```
-The optional flags let you limit the number of days displayed and control
-bubble size. Increase `--scale` for smaller bubbles.
 
 Open the resulting `covid_bubble_map.html` file in your browser to visualize the
 cases.
